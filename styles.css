@@ -40,18 +40,19 @@ body{
 }
 
 .list{
-    padding: 5px;
+    padding: 10px;
     margin: 10px;
     border-radius: 20px;
 }
 
 .list-item{
-    background-color: #f8d719;
+    background-color: chartreuse;
     display: inline-block;
-    width: 33%;
+    width: 31%;
     text-align: center;
     padding: 1.5em;
     border-radius: 20px;
+    margin: 10px;
 }
 
 .list-img{

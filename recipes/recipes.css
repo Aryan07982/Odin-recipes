@@ -1,0 +1,102 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+
+body{
+    width: 1080px;
+    margin: auto;
+    
+}
+
+.header{
+    background-color: aquamarine;
+    color: black;
+    position: relative;
+    
+    padding: 20px;
+    margin: 20px 20px 10px 20px;
+    border-radius: 20px;
+}
+
+.head-text{
+    position: absolute;
+    bottom: 20%;
+    left: 6%;
+    font-size: 300%;
+    color: white;
+}
+
+.header-img{
+    width: 850px;
+    border-radius: 20px;
+}
+
+figcaption{
+    font-size: 150%;
+}
+
+.content{
+    padding: 5px;
+    margin: 20px;
+    border-radius: 20px;
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+    color: #222;
+    
+}
+
+.c-item{
+    display: inline-block;
+    width: 45%;
+    padding: 1em;
+    border-radius: 20px;
+    vertical-align: top;
+}
+
+.col1{
+    flex: 1;
+    font-size: 140%;
+    margin-right: 20px;
+    background-color: rgb(245, 123, 164);
+}
+
+.col2{
+    flex: 2;
+    font-size: 140%;
+    background-color: chartreuse;
+}
+
+.ihead{
+    text-align: center;
+    font-size: 155%;
+    font-family: 'Playfair Display', serif;
+}
+
+.home{
+    text-align: center;
+}
+
+.btn{
+    text-decoration: none;
+    color: black;
+    background-color: gold;
+    font-size: 200%;
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+
+ul li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+  }
+
+  ol li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+  }
+  
+
